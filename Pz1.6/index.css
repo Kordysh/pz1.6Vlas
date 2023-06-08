@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.shapka {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 71, 238);
+    border-bottom: 3px solid red;
+}
+.logo_text {
+    padding: 5px 10px;
+    margin-left: 30px;
+}
+.logo_text h3 {
+    text-indent: 35px;
+    color: white;
+}
+
+.auth a {
+    color: black;
+    padding: 10px;
+    line-height: 70px;
+    font-size: 20px;
+}
+.film {
+    display: flex;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: tomato;
+    border-bottom: 1px solid rgb(202, 200, 200);
+}
+.film_text {
+    margin: 0 20px;
+}
+.film_text p {
+    text-indent: 25px;
+    text-align: justify;
+}
